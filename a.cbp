@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="a" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32">
+				<Option output="bin\Win32\a" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Win32\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-w" />
+					<Add option="-std=c99" />
+					<Add option="-fgnu89-inline" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-DALLEGRO_WINDOWS" />
+					<Add option="-DALLEGRO_STATICLINK" />
+					<Add directory="inc" />
+					<Add directory="inc\allegro" />
+					<Add directory="inc\adime" />
+					<Add directory="inc\alogg" />
+					<Add directory="inc\chipmunk" />
+					<Add directory="inc\fblend" />
+					<Add directory="inc\ogg" />
+					<Add directory="inc\vorbis" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-ffast-math" />
+					<Add option="-Llib/Win32" />
+					<Add option="-ladime" />
+					<Add option="-ljpgal" />
+					<Add option="-llogg" />
+					<Add option="-lalleg_s" />
+					<Add option="-mwindows" />
+					<Add option="-lchipmunk" />
+					<Add option="-lgdi32" />
+					<Add option="-ldxguid" />
+					<Add option="-lole32" />
+					<Add option="-ldinput" />
+					<Add option="-lddraw" />
+					<Add option="-lwinmm" />
+					<Add option="-ldsound" />
+					<Add option="-lvorbisfile" />
+					<Add option="-lvorbis" />
+					<Add option="-logg" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="res\icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src\collisions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\creators.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\data.h" />
+		<Unit filename="src\draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\author.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\editor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level07.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level08.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level09.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level13.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level17.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level18.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level19.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level21.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level22.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level23.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level24.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level25.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level26.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level27.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level28.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level29.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level30.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level31.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level33.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level34.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level35.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level36.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level37.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level38.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level39.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level40.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level41.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level42.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level43.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level44.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level45.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level46.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level47.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level48.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level49.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level50.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level51.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level52.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level53.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level54.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level55.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level56.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level57.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level58.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level59.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level60.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level61.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level62.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level63.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level65.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level66.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level67.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level68.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level69.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level70.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level71.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level72.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level73.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level74.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level75.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level76.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\level77.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\options.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\levels\scores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\main.h" />
+		<Unit filename="src\particles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\saveload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
